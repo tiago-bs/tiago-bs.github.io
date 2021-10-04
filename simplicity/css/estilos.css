@@ -112,7 +112,12 @@ figure img { transform: scale(0.7); }
     text-align: center;
 }
 
-.historia h2 { color: white; }
+.historia h2 { 
+    color: white; 
+    text-shadow: black 1px 1px 5px;
+    border-bottom: solid 5px;
+    padding-bottom: 5px;
+}
 
 .historia iframe {
     width: 100%;
@@ -164,7 +169,7 @@ quando visualizado em telas de determinados tamanhos */
         width: 100%;
     }
 
-    nav a { font-size: 1rem; }
+    nav a { font-size: 0.8rem; }
 }
 
 @media screen and (max-width: 568px) {
